@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		436B541E1B0E6C180083D206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B541D1B0E6C180083D206 /* main.m */; };
+		436B54211B0E6C180083D206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B54201B0E6C180083D206 /* AppDelegate.m */; };
+		436B54241B0E6C180083D206 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B54231B0E6C180083D206 /* ViewController.m */; };
+		436B54271B0E6C180083D206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436B54251B0E6C180083D206 /* Main.storyboard */; };
+		436B54291B0E6C180083D206 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436B54281B0E6C180083D206 /* Images.xcassets */; };
+		436B542C1B0E6C180083D206 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436B542A1B0E6C180083D206 /* LaunchScreen.xib */; };
+		436B54381B0E6C180083D206 /* form_uibutton_issuesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B54371B0E6C180083D206 /* form_uibutton_issuesTests.m */; };
+		4DA60D80B01419523DC8F16E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01A23E73D58D09FACD1E699 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		436B54321B0E6C180083D206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436B54101B0E6C180083D206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436B54171B0E6C180083D206;
+			remoteInfo = "form-uibutton-issues";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2686E68D76839E70FEED1761 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		436B54181B0E6C180083D206 /* form-uibutton-issues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "form-uibutton-issues.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		436B541C1B0E6C180083D206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436B541D1B0E6C180083D206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		436B541F1B0E6C180083D206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		436B54201B0E6C180083D206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		436B54221B0E6C180083D206 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		436B54231B0E6C180083D206 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		436B54261B0E6C180083D206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		436B54281B0E6C180083D206 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		436B542B1B0E6C180083D206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		436B54311B0E6C180083D206 /* form-uibutton-issuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "form-uibutton-issuesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		436B54361B0E6C180083D206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436B54371B0E6C180083D206 /* form_uibutton_issuesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = form_uibutton_issuesTests.m; sourceTree = "<group>"; };
+		7FD7F019C9CF670CD681039B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C01A23E73D58D09FACD1E699 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		436B54151B0E6C180083D206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA60D80B01419523DC8F16E /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436B542E1B0E6C180083D206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		436B540F1B0E6C180083D206 = {
+			isa = PBXGroup;
+			children = (
+				436B541A1B0E6C180083D206 /* form-uibutton-issues */,
+				436B54341B0E6C180083D206 /* form-uibutton-issuesTests */,
+				436B54191B0E6C180083D206 /* Products */,
+				BDA9556AB8D5C893321EEAEB /* Pods */,
+				F4636F28F3B883B844555E91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		436B54191B0E6C180083D206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				436B54181B0E6C180083D206 /* form-uibutton-issues.app */,
+				436B54311B0E6C180083D206 /* form-uibutton-issuesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		436B541A1B0E6C180083D206 /* form-uibutton-issues */ = {
+			isa = PBXGroup;
+			children = (
+				436B541F1B0E6C180083D206 /* AppDelegate.h */,
+				436B54201B0E6C180083D206 /* AppDelegate.m */,
+				436B54221B0E6C180083D206 /* ViewController.h */,
+				436B54231B0E6C180083D206 /* ViewController.m */,
+				436B54251B0E6C180083D206 /* Main.storyboard */,
+				436B54281B0E6C180083D206 /* Images.xcassets */,
+				436B542A1B0E6C180083D206 /* LaunchScreen.xib */,
+				436B541B1B0E6C180083D206 /* Supporting Files */,
+			);
+			path = "form-uibutton-issues";
+			sourceTree = "<group>";
+		};
+		436B541B1B0E6C180083D206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				436B541C1B0E6C180083D206 /* Info.plist */,
+				436B541D1B0E6C180083D206 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		436B54341B0E6C180083D206 /* form-uibutton-issuesTests */ = {
+			isa = PBXGroup;
+			children = (
+				436B54371B0E6C180083D206 /* form_uibutton_issuesTests.m */,
+				436B54351B0E6C180083D206 /* Supporting Files */,
+			);
+			path = "form-uibutton-issuesTests";
+			sourceTree = "<group>";
+		};
+		436B54351B0E6C180083D206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				436B54361B0E6C180083D206 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDA9556AB8D5C893321EEAEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FD7F019C9CF670CD681039B /* Pods.debug.xcconfig */,
+				2686E68D76839E70FEED1761 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4636F28F3B883B844555E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C01A23E73D58D09FACD1E699 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		436B54171B0E6C180083D206 /* form-uibutton-issues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436B543B1B0E6C180083D206 /* Build configuration list for PBXNativeTarget "form-uibutton-issues" */;
+			buildPhases = (
+				16DC386766CD080B1C05C8C1 /* Check Pods Manifest.lock */,
+				436B54141B0E6C180083D206 /* Sources */,
+				436B54151B0E6C180083D206 /* Frameworks */,
+				436B54161B0E6C180083D206 /* Resources */,
+				04DBD5D8E1756C134487A66F /* Embed Pods Frameworks */,
+				7B7AA4DE9B6CA78A9BAA91C7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "form-uibutton-issues";
+			productName = "form-uibutton-issues";
+			productReference = 436B54181B0E6C180083D206 /* form-uibutton-issues.app */;
+			productType = "com.apple.product-type.application";
+		};
+		436B54301B0E6C180083D206 /* form-uibutton-issuesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436B543E1B0E6C180083D206 /* Build configuration list for PBXNativeTarget "form-uibutton-issuesTests" */;
+			buildPhases = (
+				436B542D1B0E6C180083D206 /* Sources */,
+				436B542E1B0E6C180083D206 /* Frameworks */,
+				436B542F1B0E6C180083D206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				436B54331B0E6C180083D206 /* PBXTargetDependency */,
+			);
+			name = "form-uibutton-issuesTests";
+			productName = "form-uibutton-issuesTests";
+			productReference = 436B54311B0E6C180083D206 /* form-uibutton-issuesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		436B54101B0E6C180083D206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Benjamin Uzelac";
+				TargetAttributes = {
+					436B54171B0E6C180083D206 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					436B54301B0E6C180083D206 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 436B54171B0E6C180083D206;
+					};
+				};
+			};
+			buildConfigurationList = 436B54131B0E6C180083D206 /* Build configuration list for PBXProject "form-uibutton-issues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 436B540F1B0E6C180083D206;
+			productRefGroup = 436B54191B0E6C180083D206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				436B54171B0E6C180083D206 /* form-uibutton-issues */,
+				436B54301B0E6C180083D206 /* form-uibutton-issuesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		436B54161B0E6C180083D206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436B54271B0E6C180083D206 /* Main.storyboard in Resources */,
+				436B542C1B0E6C180083D206 /* LaunchScreen.xib in Resources */,
+				436B54291B0E6C180083D206 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436B542F1B0E6C180083D206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04DBD5D8E1756C134487A66F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16DC386766CD080B1C05C8C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B7AA4DE9B6CA78A9BAA91C7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		436B54141B0E6C180083D206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436B54241B0E6C180083D206 /* ViewController.m in Sources */,
+				436B54211B0E6C180083D206 /* AppDelegate.m in Sources */,
+				436B541E1B0E6C180083D206 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436B542D1B0E6C180083D206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436B54381B0E6C180083D206 /* form_uibutton_issuesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		436B54331B0E6C180083D206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 436B54171B0E6C180083D206 /* form-uibutton-issues */;
+			targetProxy = 436B54321B0E6C180083D206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		436B54251B0E6C180083D206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436B54261B0E6C180083D206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		436B542A1B0E6C180083D206 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436B542B1B0E6C180083D206 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		436B54391B0E6C180083D206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		436B543A1B0E6C180083D206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		436B543C1B0E6C180083D206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD7F019C9CF670CD681039B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "form-uibutton-issues/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		436B543D1B0E6C180083D206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2686E68D76839E70FEED1761 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "form-uibutton-issues/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		436B543F1B0E6C180083D206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "form-uibutton-issuesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/form-uibutton-issues.app/form-uibutton-issues";
+			};
+			name = Debug;
+		};
+		436B54401B0E6C180083D206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "form-uibutton-issuesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/form-uibutton-issues.app/form-uibutton-issues";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		436B54131B0E6C180083D206 /* Build configuration list for PBXProject "form-uibutton-issues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436B54391B0E6C180083D206 /* Debug */,
+				436B543A1B0E6C180083D206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436B543B1B0E6C180083D206 /* Build configuration list for PBXNativeTarget "form-uibutton-issues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436B543C1B0E6C180083D206 /* Debug */,
+				436B543D1B0E6C180083D206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436B543E1B0E6C180083D206 /* Build configuration list for PBXNativeTarget "form-uibutton-issuesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436B543F1B0E6C180083D206 /* Debug */,
+				436B54401B0E6C180083D206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 436B54101B0E6C180083D206 /* Project object */;
+}

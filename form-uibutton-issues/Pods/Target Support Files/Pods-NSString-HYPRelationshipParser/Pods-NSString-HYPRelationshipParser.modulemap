@@ -1,0 +1,6 @@
+framework module NSString_HYPRelationshipParser {
+  umbrella header "Pods-NSString-HYPRelationshipParser-umbrella.h"
+
+  export *
+  module * { export * }
+}
